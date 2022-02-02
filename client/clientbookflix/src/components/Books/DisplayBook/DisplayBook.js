@@ -29,9 +29,19 @@ const DisplayBook = () => {
 
     return (
         <section className="book-container">
-            <Link to="/add-book"
-
-    )
-}
+            <Link to="/add-book" className="book-btn-new"></Link>
+                <button className="book-btn">Add new book</button>
+            </Link>
+            <section className="book-data">
+                <h1></h1>
+        <ul className="book-list-block">
+            {infoBook.map((data) => (
+                <BookCard data={data} deleteHandler={deleteHandler} />
+            ))}
+        </ul>
+        </section>
+        </section>
+    );
+};
 
 export default DisplayBook;
