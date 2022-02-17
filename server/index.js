@@ -8,10 +8,10 @@ const PORT = process.env.PORT || 1234;
 const app = express();
 app.use(express.json());
 app.use(express.urlencoded({
-    etended: true
+    extended: true
 }));
 app.options('*', cors());
-app.use(router);
+app.use('/v1', router);
 
 
 app.listen(PORT, () => {
