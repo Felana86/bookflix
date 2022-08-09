@@ -9,16 +9,16 @@ C'est une application dédiée à mes besoins personnels, et liée à ma passion
 - Hébergement: Heroku
   
     ### Backend
-    Logiciel de plateforme: NodeJS
-    Gestionnaire de paquets: npm
-    Librairie: ExpressJS
-    SGBDR: PostgreSQL
-    Getionnaire de base de données: Sqitch
+    - Logiciel de plateforme: NodeJS
+    - Gestionnaire de paquets: npm
+    - Librairie: ExpressJS
+    - SGBDR: PostgreSQL
+    - Getionnaire de base de données: Sqitch
 
     ### Frontend 
-    Framework: ReactJS
-    Toolchain: Webpack
-    Framework CSS:
+    - Framework: ReactJS
+    - Toolchain: Webpack
+    - Framework CSS:
 
 Ces outils sont nécessaires pour l'installation des outils de développement, mais aussi pour le bon fonctionnement de l'application lors de son développement.
 
